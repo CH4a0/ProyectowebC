@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es_ES">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="../CSS/Proyectoweb.css" />
+    <link rel="shortcut icon" type="image/jpeg" href="../Fotos/Tejón.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="banner" align="center">
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="menu-icono"><img src="../Fotos/OIP.png" alt="" /></i>
+            </label>
+            <ul class="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Multimedia.html">Multimedia</a></li>
+                <li><a href="./Formulario.html">Formulario</a></li>
+                <li><a href="./Listas.html">Listas y tablas</a></li>
+                <li><a href="./Galeriaimagen.html">Galería de imágenes</a></li>
+            </ul>
+        </div>
+        <h1 id="Título">Hojaldrada-te</h1>
+        <div id="elemento_oculto">
+            <h3 id="Eslogan" onmouseover="document.getElementById('elemento_oculto').style.display='none'"
+                onmouseout="document.getElementById('elemento_oculto').style.display='block'">Compra hojaldrada o te
+                deshidratas</h3>
+        </div>
+    </header>
+    <br />
+    <br />
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-25">
+                <label for="fname">Nombre:</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="nombre" placeholder="Tu nombre por favor...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Apellidos:</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Tus apellidos...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Correo electrónico:</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Introduce un correo electrónico">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="country">País:</label>
+            </div>
+            <div class="col-75">
+                <select id="country" name="country">
+                    <option value="australia">España</option>
+                    <option value="canada">Italia</option>
+                    <option value="usa">Francia</option>
+                    <option value="usa">Otro</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="subject">Asunto del mensaje:</label>
+            </div>
+            <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Escribe tus opiniones o preguntas."
+                    style="height:200px"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" value="Enviar">
+        </div>
+        </form>
+    </div>
+    <br>
+    <br>
+      <!-- Codigo del howto -->
+  <div class="icon-bar">
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+    <a href="#" class="google"><i class="fa fa-google"></i></a> 
+    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+  </div>
+    <br>
+    <br>
+    <br>
+    <h3>Chao Jiahao</h3>
+    <footer>
+        <h1 id="footer">Las imágenes proviene de google</h1>
+    </footer>
+</body>
+
+</html>
